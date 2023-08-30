@@ -227,12 +227,53 @@ Fügen Sie dieses Projekt auch der Projektmappe hinzu.
 
 <img src="./AddFiles/21.png" width=50% >
 
+## Commiten und Pushen
 
+### Was ist ein Commit  
+
+Ein Commit ist ein Begriff aus der Versionskontrolle und bezeichnet die Aktion, bei der Änderungen an einer oder mehreren Dateien in einem Repository gespeichert werden. Mit einem Commit werden nicht nur die eigentlichen Änderungen gespeichert, sondern auch eine Commit-Nachricht hinzugefügt, die beschreibt, was und warum etwas geändert wurde. Jeder Commit in einem Repository hat eine eindeutige ID, sodass man zu jedem Zeitpunkt zu einem bestimmten Commit zurückkehren kann. Commits ermöglichen es also, die Entwicklungshistorie eines Projekts nachzuvollziehen und bei Bedarf zu einem früheren Stand des Projekts zurückzukehren.
+
+Um einen Commit ind VS Code durchzuführen, müssen Sie folgende Schritte durchführen: 
+
+1. Klicken Sie auf das Branch-Symbol an der linken Seite.
+2. Fügen Sie alle Änderungen mit einem Klick auf das `+` -Symbol hinzu.
+3. Schreiben Sie eine Beschreibung in die Commitbox was sie geändert haben.
+4. Klich´ken Sie auf den aufleuchtenden Commit-Button 
 
 <img src="./AddFiles/22.png" width=50% >
+
+### Warum muss ich noch Pushen?
+
+Nach einem Commit sind die Änderungen nur im lokalen Repository des Entwicklers gespeichert. Das Pushen (oder Hochladen) dieser Änderungen ist notwendig, um sie in ein entferntes Repository (z. B. auf einem Server oder bei einem Dienst wie GitHub) zu übertragen. Dadurch werden die Commits für andere Entwickler zugänglich, und sie können die neuesten Änderungen abrufen und in ihre eigenen lokalen Kopien des Projekts integrieren. Ohne den Push-Vorgang wären die Commits nur lokal verfügbar und könnten nicht von anderen Teammitgliedern oder Systemen gesehen oder genutzt werden.
+
+Um die Änderungen bei VS Code zu pushen, klicken sie im Register von Git auf die drei Punkte `...`
+und anschließend auf `Push`. Schauen Sie ob die Änderungen bei GitHub zu sehen sind.
+
 <img src="./AddFiles/23.png" width=50% >
+
+## Fetch und Pull
+
+**Gehen Sie zu Ihrem GitHub-Repository**
+
+Es könnte vorkommen, dass Sie selbst oder ein/e Kolleg/in eine Änderung direkt im GitHub-Repository durchführt. Um dies zu simulieren, ändern Sie im Projekt **'2_Konsolenausgabe'** in der Datei **'Program.cs'** den Code zu `Console.WriteLine("foobar");`. 
+
 <img src="./AddFiles/24.png" width=50% >
+
+**Gehen Sie nun wieder zu ihrem Codespace und Visual Studio Code**
+
+### Was ist Fetching
+
+Ein **'Fetch'** in Git ermöglicht es Ihnen, die neuesten Änderungen aus einem entfernten Repository abzurufen, ohne sie automatisch mit Ihrem aktuellen Branch zu verschmelzen. Es holt im Wesentlichen die Updates, führt aber keinen Merge durch, sodass Sie die Änderungen überprüfen können, bevor Sie sie in Ihre Arbeitskopie integrieren.
+
+Um die Änderungen abzurufen, gehen Sie wieder auf das Git Register und klicken Sie die drei Punkte an `...`. Klicken Sie `Fetch` um die Änderungen anzufragen. 
+
+❗ Schauen Sie jetzte in die **'Program.cs'** so sehen Sie, das die Änderungen noch nicht übernommen wurden. 
+
 <img src="./AddFiles/25.png" width=50% >
+
+### Was bedeutet Pull
+
+
 <img src="./AddFiles/26.png" width=50% >
 
 
