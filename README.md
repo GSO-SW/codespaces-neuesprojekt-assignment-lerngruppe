@@ -3,7 +3,7 @@
         <h1>Visual Studio mit Git und GitHub</h1>
 </div>
 
-## :dart: Zielsetzung
+# :dart: Zielsetzung
 
 ### 1. Verständnis für die Entwicklungsumgebung
 - Die Lernenden können **Visual Studio 2022** erfolgreich installieren, starten und die wichtigsten Funktionen der IDE identifizieren.
@@ -22,12 +22,12 @@
 - Sie können bestehende Projekte bearbeiten und verschiedene Projekte innerhalb einer Lösung verwalten.
 
 
-## Einleitung
+# Einleitung
 
 Die Integration von Visual Studio mit GitHub hat die Entwicklung und Zusammenarbeit von Software erheblich vereinfacht. In diesem Tutorial werden Sie durch den Prozess der Erstellung eines Projekts in Visual Studio 2022 geführt, seiner Verbindung mit einem GitHub-Repository und der Durchführung der grundlegenden Git-Operationen, die im Softwareentwicklungszyklus häufig verwendet werden. Nachdem Sie diesen Leitfaden befolgt haben, werden Sie über das notwendige Wissen verfügen, um Ihren Code effizient zu verwalten, Änderungen zu verfolgen und mit anderen Entwicklern zusammenzuarbeiten.
 
----
-## Was ist ein GitHub Codespace?
+
+# Was ist ein GitHub Codespace?
 
 Ein Codespace ist eine in der Cloud gehostete Entwicklungsumgebung. Du kannst dein Projekt für GitHub Codespaces anpassen, indem du Konfigurationsdateien in deinem Repository committest (was häufig als Configuration-as-Code bezeichnet wird). Dadurch wird eine wiederholbare Codespacekonfiguration für alle Benutzer deines Projekts erstellt.
 
@@ -39,18 +39,18 @@ Du kannst über deinen Browser, über Visual Studio Code, über die JetBrains Ga
 
 <img src="./AddFiles/codespaces-diagram.png" width=50% >
 
----
 
-## Was ist Visual Studio Code?
+
+# Was ist Visual Studio Code?
 
 Visual Studio Code (VS Code) ist ein kostenloser, plattformübergreifender Quelltext-Editor von Microsoft, verfügbar für Windows, macOS und Linux. Er basiert auf Electron und bietet Funktionen wie Syntaxhervorhebung und Debugging. Im Gegensatz zu Visual Studio fokussiert sich VS Code mehr auf Quelltext- und Textdateien statt Projektdateien und nutzt dafür Workspaces, die den Bearbeitungszustand und die Reihenfolge der geöffneten Dateien speichern. Trotz einiger Ähnlichkeiten im Namen und Funktionen wie IntelliSense hat VS Code wenig mit Visual Studio gemeinsam.
 
 ---
 
-## Tutorial
+# Tutorial
 
 
-### Codespace erstellen
+## Codespace erstellen
 
 Um den Codespace zu öffne, gehen Sie sicher, dass der `.devconatiner` in ihrem Repository vorhanden ist.
 Clicken Sie in dem Repository das bearbeiten möchten auf **'Code'**. in der Registerkarte Codespaces klicken Sie auf **'Create codespace on main'**.
@@ -62,7 +62,7 @@ Wie Sie nun sehen können, wird der Container für ihren Codespace erstellt.
 <img src="./AddFiles/2.png" width=50% >
 
 
-### Visual Studio Code einstellen
+## Visual Studio Code einstellen
 
 Damit die Einstellungen und der Code bei VS Code gespeichert sind müssen einige einstellungen vorgenommen werden. 
 
@@ -82,7 +82,7 @@ Damit die Einstellungen und der Code bei VS Code gespeichert sind müssen einige
 <img src="./AddFiles/4.png" width=50% >
 <img src="./AddFiles/5.png" width=50% >
 
-### Visual Studio Code Erweiterungen installieren
+## Visual Studio Code Erweiterungen installieren
 
 **Was sind Erweiterungen?**
 
@@ -120,9 +120,10 @@ Falls das Terminal nicht geöffnet ist, können Sie es über das Burgermenü ern
 
 <img src="./AddFiles/10.png" width=50% >
 
-### Neue Projektmappe und Projekt erstellen
+## Neue Projektmappe und Projekt erstellen
 
-**Eine neue Projektmappe**   
+### Eine neue Projektmappe   
+
 In Visual Studio bezeichnet eine Projektmappe eine Organisationsstruktur, die als Container dient, um Projekte zu organisieren und zu verwalten. Während Projekte die tatsächlichen Code-Dateien, Ressourcen und Konfigurationen enthalten, dient die Projektmappe als übergeordneter Rahmen, der mehrere Projekte zusammenfassen kann. Wenn man eine Projektmappe in Visual Studio öffnet, werden automatisch alle darin enthaltenen Projekte geladen. Um den Organisationsprozess zu beginnen, sollte man zuerst eine leere Projektmappe erstellen, in die dann entsprechende Projekte hinzugefügt werden können.
 
 Um eine Projektmappe zu erstellen, geben Sie folgen den Befehl im Terminal ein:
@@ -133,16 +134,16 @@ dotnet new sln --name GrundlagenrepositoryCsharp
 
 Bedeutung der Befehlskomponenten:
 
-**dotnet**: 
-**new**:
-**sln**:
-**--name**:
+**dotnet**:    
+**new**:    
+**sln**:   
+**--name**:   
 
 Dieser befehl erzeug eine Neue Projektmappe in Ihrem Arbeitsverzeichnis.
 
 <img src="./AddFiles/12.png" width=50% >
 
-**Ein neues Projekt** 
+### Ein neues Projekt
 
 In .NET bezeichnet ein **"Projekt"** eine Sammlung von Dateien und Konfigurationseinstellungen, die zusammenarbeiten, um eine bestimmte Anwendungsart, z.B. eine Konsolenanwendung, eine Webanwendung oder eine Bibliothek, zu erstellen. Ein .NET-Projekt enthält in der Regel Quellcodedateien (wie C#-Dateien), Ressourcendateien und eine Projektdatei (typischerweise mit der Endung **'.csproj'** für C#-Projekte), die Metadaten über das Projekt sowie Anweisungen für das Kompilieren und Bauen der Anwendung enthält. Ein Projekt kann eigenständig sein oder Teil einer größeren Lösung (Solution) mit mehreren Projekten sein, die gemeinsam oder separat gebaut und ausgeführt werden können.
 
@@ -153,13 +154,49 @@ dotnet new console --language C# --name 1_Elementare_Syntax --framework net6.0
 ```
 
 Bedeutung der Befehlskomponenten:
-**console**:
-**--language**:
-**--framework**:
+**console**:   
+**--language**:   
+**--framework**:   
 
 <img src="./AddFiles/13.png" width=50% >
+
+### Projekt zur Projektmappe hinzufügen
+
+Um das Projekt der vorhandenen Projektmappe hinzuzufügen, der folgende Befehl im Terminal eingegeben werden:
+
+```
+dotnet sln add 1_Elementare_Syntax/1_Elementare_Syntax.csproj
+```
+
 <img src="./AddFiles/14.png" width=50% >
+
+Folgender Befehl Zeigt die Projekte an, die in der Projektmappe enthalten sind:
+```
+dotnet sln GrundlagenrepositoryCsharp.sln list
+```
+
 <img src="./AddFiles/15.png" width=50% >
+
+### Projekt ausführen und Debuggen   
+
+Die Ausführung eines Programms und der Einsatz eines Debuggers sind zwei unterschiedliche Konzepte in der Softwareentwicklung:
+
+**Ausführung eines Programms:** Wenn ein Programm ausgeführt wird, wird es ohne Unterbrechung vom Anfang bis zum Ende (oder bis zu einem unbehandelten Fehler) durchlaufen. Der Hauptzweck ist es, die gewünschten Ergebnisse oder Aktionen zu sehen, die das Programm durchführt. Bei der normalen Ausführung können Sie die Funktionalität des Programms beobachten, aber Sie haben keinen detaillierten Einblick in die internen Abläufe oder Zustände während der Ausführung.   
+
+Um das Projekt **'1_Elementare_Syntax'** mit dem Progammcode ind der Datei **'Program.cs'** auszuführen, können Sie folgenden Code ausführen: 
+
+```
+dotnet run --project 1_Elementare_Syntax/1_Elementare_Syntax.csproj
+```
+Bedeutung der Befehlskomponenten:
+**run**:   
+**--project**:   
+
+
+**Debugger:** Ein Debugger ist ein spezialisiertes Tool, das Entwicklern ermöglicht, ein Programm in einer kontrollierten Umgebung auszuführen, um Fehler zu finden und zu beheben. Mit einem Debugger können Entwickler das Programm schrittweise ausführen, Haltepunkte setzen, um die Ausführung an bestimmten Punkten zu stoppen, und den aktuellen Zustand des Programms (wie Variablenwerte) überwachen. Dies gibt einen detaillierten Einblick in das Verhalten des Programms und ermöglicht es, Probleme oder unerwartetes Verhalten zu identifizieren und zu korrigieren.
+
+
+
 <img src="./AddFiles/16.png" width=50% >
 <img src="./AddFiles/17.png" width=50% >
 <img src="./AddFiles/18.png" width=50% >
