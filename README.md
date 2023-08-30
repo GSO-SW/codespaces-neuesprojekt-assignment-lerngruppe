@@ -188,21 +188,47 @@ Um das Projekt **'1_Elementare_Syntax'** mit dem Progammcode ind der Datei **'Pr
 ```
 dotnet run --project 1_Elementare_Syntax/1_Elementare_Syntax.csproj
 ```
-Bedeutung der Befehlskomponenten:
+Bedeutung der Befehlskomponenten:   
 **run**:   
 **--project**:   
 
+<img src="./AddFiles/16.png" width=50% >
+
+Fügen Sie COdezeilen hinzu und führen Sie das Programm erneut aus:
+
+- Gehen Sie im Arbeitsverzeichnis in das Projekt **'1_Elementare_Syntax'** und anschließend in die Datei **'Program.cs'**.
+- Fügen sie unter die bestehende Zeile den Code `Console.WriteLine("Hallo, Welt!");` ein.
+- Starten Sie das Programm erneut.
+
+<img src="./AddFiles/17.png" width=50% >
+<img src="./AddFiles/18.png" width=50% >
 
 **Debugger:** Ein Debugger ist ein spezialisiertes Tool, das Entwicklern ermöglicht, ein Programm in einer kontrollierten Umgebung auszuführen, um Fehler zu finden und zu beheben. Mit einem Debugger können Entwickler das Programm schrittweise ausführen, Haltepunkte setzen, um die Ausführung an bestimmten Punkten zu stoppen, und den aktuellen Zustand des Programms (wie Variablenwerte) überwachen. Dies gibt einen detaillierten Einblick in das Verhalten des Programms und ermöglicht es, Probleme oder unerwartetes Verhalten zu identifizieren und zu korrigieren.
 
+Um den Debugger zu testen, führen Sie folgende Schritte aus: 
 
+1. Setzen Sie bei der neuen Zeile einen Haltepunkt indem Sie links neben die Zeilennummer klicken.
+2. Starten Sie den Debugger indem Sie **F5** drücken. ❗❗ (Nun müsste sich ein Json-Datei öffnen ist das der fall, führen Sie die folgende Einstellung aus)
+3. Gehen Sie ins Terminal und schauen Sie sich an was ausgeführt worden ist.
+4. Mit dem **'PLay-Button'** können sie den Debuger weiter laufen lassen.
 
-<img src="./AddFiles/16.png" width=50% >
-<img src="./AddFiles/17.png" width=50% >
-<img src="./AddFiles/18.png" width=50% >
-<img src="./AddFiles/19.png" width=50% >
 <img src="./AddFiles/20.png" width=50% >
+
+**Debugger einstellen**
+
+Hat sich ein Json-Datei geöffnet ist das etwas gutes 🙂. Ändern Sie den Punkt **"console"** zu dem Wert `"integratedTerminal"` und speichern Sie die Datei ab. Sich können nun die Datei mit einem Klick auf das x schließen.
+
+<img src="./AddFiles/19.png" width=50% >
+
+### Zweite Projektmappe hinzufügen
+
+Erstellen Sie eine zweite Projektmappe mit dem Namen `2_Konsolenausgabe`. 
+Fügen Sie dieses Projekt auch der Projektmappe hinzu.
+
 <img src="./AddFiles/21.png" width=50% >
+
+
+
 <img src="./AddFiles/22.png" width=50% >
 <img src="./AddFiles/23.png" width=50% >
 <img src="./AddFiles/24.png" width=50% >
