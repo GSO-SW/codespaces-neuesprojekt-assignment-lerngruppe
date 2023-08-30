@@ -31,7 +31,7 @@ Visual Studio Code (VS Code) ist ein kostenloser, plattformübergreifender Quell
 # Tutorial
 
 
-## Erstellen eines Codespaces
+## 1. Erstellen eines Codespaces
 Um mit der Arbeit in einem Codespace zu beginnen, stellen Sie sicher, dass sich eine `.devcontainer`-Datei in Ihrem Repository befindet. Folgen Sie diesen Schritten, um Ihren Codespace zu erstellen:
 
 + Navigieren Sie zu dem Repository, das Sie bearbeiten möchten.
@@ -45,7 +45,7 @@ Sie werden feststellen, dass jetzt ein Container für Ihren Codespace im Hinterg
 <img src="./AddFiles/2.png" width=100%>
 
 
-## Anpassung von Visual Studio Code 
+## 2. Anpassung von Visual Studio Code 
 
 Um sicherzustellen, dass Ihre Einstellungen und Ihr Code in Visual Studio Code korrekt gespeichert und synchronisiert werden, müssen Sie die folgenden Schritte ausführen:
 
@@ -67,7 +67,7 @@ Um sicherzustellen, dass Ihre Einstellungen und Ihr Code in Visual Studio Code k
 <img src="./AddFiles/4.png" width=50%>
 <img src="./AddFiles/5.png" width=100%>
 
-## Installation von Erweiterungen in Visual Studio Code
+## 3. Installation von Erweiterungen in Visual Studio Code
 
 ### Was sind Erweiterungen?
 
@@ -104,7 +104,7 @@ Falls Ihr Terminal geschlossen wurde, können Sie es über das "Burger"-Menü wi
 
 <img src="./AddFiles/10.png" width=50%>
 
-## Erstellung einer neuen Projektmappe und eines Projekts
+## 4. Erstellung einer neuen Projektmappe und eines Projekts
 
 ### Was ist eine Projektmappe?
 
@@ -223,7 +223,7 @@ Fügen Sie dieses Projekt auch der Projektmappe hinzu.
 
 <img src="./AddFiles/21.png" width=100%>
 
-## Commiten und Pushen
+## 5. Commiten und Pushen
 
 ### Was ist ein Commit  
 
@@ -247,7 +247,7 @@ und anschließend auf `Push`. Schauen Sie ob die Änderungen bei GitHub zu sehen
 
 <img src="./AddFiles/23.png" width=50%>
 
-## Fetch und Pull
+## 6. Fetch und Pull
 
 **Gehen Sie zu Ihrem GitHub-Repository**
 
