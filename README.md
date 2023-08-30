@@ -27,63 +27,39 @@
 Die Integration von Visual Studio mit GitHub hat die Entwicklung und Zusammenarbeit von Software erheblich vereinfacht. In diesem Tutorial werden Sie durch den Prozess der Erstellung eines Projekts in Visual Studio 2022 geführt, seiner Verbindung mit einem GitHub-Repository und der Durchführung der grundlegenden Git-Operationen, die im Softwareentwicklungszyklus häufig verwendet werden. Nachdem Sie diesen Leitfaden befolgt haben, werden Sie über das notwendige Wissen verfügen, um Ihren Code effizient zu verwalten, Änderungen zu verfolgen und mit anderen Entwicklern zusammenzuarbeiten.
 
 ---
+## .Net 
 
+---
 
 ## Codespace starten
 
 Was sind Codespaces
 
 
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
-<img src="./AddFiles/Suchleiste-windows.PNG" width=50% >
+<img src="./AddFiles/1.PNG" width=50% >
+<img src="./AddFiles/2.PNG" width=50% >
+<img src="./AddFiles/3.PNG" width=50% >
+<img src="./AddFiles/4.PNG" width=50% >
+<img src="./AddFiles/5.PNG" width=50% >
+<img src="./AddFiles/6.PNG" width=50% >
+<img src="./AddFiles/7.PNG" width=50% >
+<img src="./AddFiles/8.PNG" width=50% >
+<img src="./AddFiles/9.PNG" width=50% >
+<img src="./AddFiles/10.PNG" width=50% >
+<img src="./AddFiles/12.PNG" width=50% >
+<img src="./AddFiles/13.PNG" width=50% >
+<img src="./AddFiles/14.PNG" width=50% >
+<img src="./AddFiles/15.PNG" width=50% >
+<img src="./AddFiles/16.PNG" width=50% >
+<img src="./AddFiles/17.PNG" width=50% >
+<img src="./AddFiles/18.PNG" width=50% >
+<img src="./AddFiles/19.PNG" width=50% >
+<img src="./AddFiles/20.PNG" width=50% >
+<img src="./AddFiles/21.PNG" width=50% >
+<img src="./AddFiles/22.PNG" width=50% >
+<img src="./AddFiles/23.PNG" width=50% >
+<img src="./AddFiles/24.PNG" width=50% >
+<img src="./AddFiles/25.PNG" width=50% >
+<img src="./AddFiles/26.PNG" width=50% >
+
+
