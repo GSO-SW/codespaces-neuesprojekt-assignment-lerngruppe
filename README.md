@@ -3,28 +3,9 @@
         <h1>Visual Studio mit Git und GitHub</h1>
 </div>
 
-# :dart: Zielsetzung
-
-### 1. Verständnis für die Entwicklungsumgebung
-- Die Lernenden können **Visual Studio 2022** erfolgreich installieren, starten und die wichtigsten Funktionen der IDE identifizieren.
-
-### 2. Anwendung von Versionierungssystemen
-- Die Lernenden sind in der Lage, ein Projekt in Visual Studio zu erstellen und dieses mit einem Git-Repository zu verbinden.
-- Sie verstehen die Bedeutung von Commits und können diese in Visual Studio durchführen.
-
-### 3. Zusammenarbeit mit GitHub
-- Die Lernenden können sich mit ihren Konten in Visual Studio anmelden.
-- Sie können ein neues Repository auf GitHub erstellen, Änderungen pushen und ziehen (fetch und pull).
-- Sie verstehen den Unterschied zwischen diesen Aktionen.
-
-### 4. Arbeiten mit C#-Projekten
-- Die Lernenden sind in der Lage, ein neues C#-Konsolenprojekt in Visual Studio zu erstellen.
-- Sie können bestehende Projekte bearbeiten und verschiedene Projekte innerhalb einer Lösung verwalten.
-
-
 # Einleitung
 
-Die Integration von Visual Studio mit GitHub hat die Entwicklung und Zusammenarbeit von Software erheblich vereinfacht. In diesem Tutorial werden Sie durch den Prozess der Erstellung eines Projekts in Visual Studio 2022 geführt, seiner Verbindung mit einem GitHub-Repository und der Durchführung der grundlegenden Git-Operationen, die im Softwareentwicklungszyklus häufig verwendet werden. Nachdem Sie diesen Leitfaden befolgt haben, werden Sie über das notwendige Wissen verfügen, um Ihren Code effizient zu verwalten, Änderungen zu verfolgen und mit anderen Entwicklern zusammenzuarbeiten.
+Unser Ziel ist es, dass Sie am Ende dieses Tutorials nicht nur die Technik hinter Codespaces verstehen, sondern auch selbstsicher und effizient in dieser modernen Entwicklungsumgebung arbeiten können. Egal, ob Sie ein Einsteiger oder ein erfahrener Entwickler sind, dieses Tutorial bietet wertvolle Erkenntnisse und Tipps für alle, die ihre Entwicklungsprozesse optimieren und in die Cloud verlagern möchten. Tauchen Sie ein und entdecken Sie die Möglichkeiten, die Ihnen durch die Kombination von Codespaces und Visual Studio Code eröffnet werden!
 
 
 # Was ist ein GitHub Codespace?
@@ -50,119 +31,132 @@ Visual Studio Code (VS Code) ist ein kostenloser, plattformübergreifender Quell
 # Tutorial
 
 
-## Codespace erstellen
+## Erstellen eines Codespaces
+Um mit der Arbeit in einem Codespace zu beginnen, stellen Sie sicher, dass sich eine `.devcontainer`-Datei in Ihrem Repository befindet. Folgen Sie diesen Schritten, um Ihren Codespace zu erstellen:
 
-Um den Codespace zu öffne, gehen Sie sicher, dass der `.devconatiner` in ihrem Repository vorhanden ist.
-Clicken Sie in dem Repository das bearbeiten möchten auf **'Code'**. in der Registerkarte Codespaces klicken Sie auf **'Create codespace on main'**.
++ Navigieren Sie zu dem Repository, das Sie bearbeiten möchten.
++  Klicken Sie auf die Schaltfläche **'Code'**.
++   Im Tab "Codespaces" wählen Sie **'Create codespace on main'**.
 
 <img src="./AddFiles/1.png" width=100%>
 
-Wie Sie nun sehen können, wird der Container für ihren Codespace erstellt.
+Sie werden feststellen, dass jetzt ein Container für Ihren Codespace im Hintergrund aufgesetzt wird.
 
 <img src="./AddFiles/2.png" width=100%>
 
 
-## Visual Studio Code einstellen
+## Anpassung von Visual Studio Code 
 
-Damit die Einstellungen und der Code bei VS Code gespeichert sind müssen einige einstellungen vorgenommen werden. 
+Um sicherzustellen, dass Ihre Einstellungen und Ihr Code in Visual Studio Code korrekt gespeichert und synchronisiert werden, müssen Sie die folgenden Schritte ausführen:
 
-**Visual Studio Einstellungen Speichern und synchronisieren**
-- Klicken Sie auf das Profil Icon unten links
-- Klicken Sie auf `Turn on Settings Sync...`
-- Klicken Sie auf `Sign in & Turn on`
-- Nun wählen Sie ihr GitHub Profil
+### Synchronisieren von Visual Studio Einstellungen
 
-**Code und Änderungen in der Cloud speichern**
-- Klicken Sie auf das Profil Icon unten links
-- Klicken Sie auf `Turn on Cloud Changes...`
-- Klicken Sie auf `Sign in & Turn on`
-- Nun wählen Sie ihr GitHub Profil
+1. Klicken Sie auf das Profil-Symbol in der unteren linken Ecke.
+2. Wählen Sie die Option `Turn on Settings Sync...`.
+3. Im daraufhin erscheinenden Dialog klicken Sie auf `Sign in & Turn on`.
+4. Melden Sie sich mit Ihrem GitHub-Profil an.
+
+### Änderungen in der Cloud speichern
+
+1. Klicken Sie erneut auf das Profil-Symbol in der unteren linken Ecke.
+2. Wählen Sie die Option `Turn on Cloud Changes...`.
+3. Klicken Sie auf `Sign in & Turn on`.
+4. Authentifizieren Sie sich erneut mit Ihrem GitHub-Profil.
 
 <img src="./AddFiles/3.png" width=50%>
 <img src="./AddFiles/4.png" width=50%>
 <img src="./AddFiles/5.png" width=100%>
 
-## Visual Studio Code Erweiterungen installieren
+## Installation von Erweiterungen in Visual Studio Code
 
-**Was sind Erweiterungen?**
+### Was sind Erweiterungen?
 
-Erweiterungen in Visual Studio Code ergänzen den Basis-Editor um zusätzliche Funktionen. Mit VS Code-Erweiterungen können Benutzer Sprachen, Debugger und Tools hinzufügen, um ihren Entwicklungsworkflow zu unterstützen. Dank des umfangreichen Erweiterungsmodells von VS Code können Entwickler von Erweiterungen direkt in die VS Code-Benutzeroberfläche eingreifen und Funktionen über die gleichen APIs bereitstellen, die auch von VS Code verwendet werden. Diese Erweiterungen können aus dem Visual Studio Code Marketplace gefunden, installiert und verwaltet werden.
+Erweiterungen erweitern die Grundfunktionalität von Visual Studio Code durch zusätzliche Features. Sie ermöglichen den Benutzern, Sprachen, Debugger und verschiedene Werkzeuge ihrem Entwicklungsworkflow hinzuzufügen. Dank VS Codes flexiblen Erweiterungsmodells können Entwickler direkt in die Benutzeroberfläche von VS Code eingreifen. Diese Erweiterungen sind im Visual Studio Code Marketplace auffindbar und können von dort aus installiert und verwaltet werden.
 
-Um erweiterungen zu installieren, klicken sie das entsprechende Symbol an und suchen Sie anschließend nach den entsprechenden Erweiterungen.
+Zum Installieren von Erweiterungen klicken Sie einfach auf das Erweiterungs-Symbol und suchen anschließend nach den gewünschten Erweiterungen.
 
 <img src="./AddFiles/5_1.png" width=10% >
 
-**Folgende Erweiterungen sollten Sie installieren.**
+### Empfohlene Erweiterungen
+
+Nachfolgend sind einige Erweiterungen aufgeführt, die Sie für Ihren Workflow in Betracht ziehen sollten:
 
 <img src="./AddFiles/6.png" width=100%>
 <img src="./AddFiles/7.png" width=100%>
 <img src="./AddFiles/7_1.png" width=100%>
 <img src="./AddFiles/9.png" width=100%>
 
-**OmniSharp aktivieren**
+### OmniSharp aktivieren
 
-OmniSharp ist eine Sammlung von Werkzeugen, Editor-Integrationen und Bibliotheken, die zusammen ein Ökosystem bilden, welches unabhängig vom gewählten Editor und Betriebssystem eine hervorragende Programmiererfahrung ermöglicht.
+OmniSharp bietet ein Set von Werkzeugen und Integrationen, die Entwicklern, unabhängig vom Editor oder Betriebssystem, eine erstklassige Entwicklungs-Erfahrung ermöglichen. Um die volle Unterstützung für C# in VS Code zu erhalten, sollten Sie OmniSharp richtig konfigurieren:
 
-Auch wenn Sie die notwendigen Erweiterungen installiert haben, müssen Sie noch eine Dotnet einstellung vornehmen damit KLassen und Methoden von C# in VScode angezeigt werden. 
+1. Öffnen Sie die Einstellungen von VS Code mit `Strg + ,`.
+2. Geben Sie in der Suche **dotnet** ein.
+3. Wählen Sie die OmniSharp-Einstellungen aus.
+4. Aktivieren Sie die Option **Use OmniSharp**.
+5. Starten Sie den **Language Server** neu.
 
-Folgende Schritte müssen Sie vornehmen:
-Öffnen Sie die VS code einstellungern mit der Tastenkombination `Strg und , `
-1. Geben Sie in die Suchzeile **dotnet** ein.
-2. Wählen Sie die Einstellungen von OmniSharp
-3. Setzen sie den Haken bei **Use OmniSharp** 
-4. Starten Sie den **Language Server** neu
-
-Machen Sie einen **'hard refresh'** indem sie die Seite neu laden.
+Ein **"hard refresh"** kann notwendig sein. Laden Sie die Seite erneut, um sicherzustellen, dass alle Einstellungen wirksam werden.
 
 <img src="./AddFiles/9_1.png" width=100%>
 
-Falls das Terminal nicht geöffnet ist, können Sie es über das Burgermenü erneut öffnen.
+Falls Ihr Terminal geschlossen wurde, können Sie es über das "Burger"-Menü wieder öffnen.
 
 <img src="./AddFiles/10.png" width=50%>
 
-## Neue Projektmappe und Projekt erstellen
+## Erstellung einer neuen Projektmappe und eines Projekts
 
-### Eine neue Projektmappe   
+### Was ist eine Projektmappe?
 
-In Visual Studio bezeichnet eine Projektmappe eine Organisationsstruktur, die als Container dient, um Projekte zu organisieren und zu verwalten. Während Projekte die tatsächlichen Code-Dateien, Ressourcen und Konfigurationen enthalten, dient die Projektmappe als übergeordneter Rahmen, der mehrere Projekte zusammenfassen kann. Wenn man eine Projektmappe in Visual Studio öffnet, werden automatisch alle darin enthaltenen Projekte geladen. Um den Organisationsprozess zu beginnen, sollte man zuerst eine leere Projektmappe erstellen, in die dann entsprechende Projekte hinzugefügt werden können.
+In Visual Studio dient eine Projektmappe als Organisationsstruktur, um Projekte zu bündeln und zu verwalten. Während ein Projekt die tatsächlichen Code-Dateien, Ressourcen und Konfigurationen enthält, agiert die Projektmappe als übergeordneter Container für mehrere Projekte. Wenn Sie eine Projektmappe in Visual Studio öffnen, werden alle darin enthaltenen Projekte gleichzeitig geladen. Der erste Schritt beim Aufsetzen eines neuen Projekts ist oft das Erstellen einer leeren Projektmappe, in die dann die spezifischen Projekte eingefügt werden.
 
-Um eine Projektmappe zu erstellen, geben Sie folgen den Befehl im Terminal ein:
+### Projektmappe mit dem Terminal erstellen
+
+Um eine neue Projektmappe zu erstellen, nutzen Sie das Terminal und geben den folgenden Befehl ein:
+
 
 ```
 dotnet new sln --name GrundlagenrepositoryCsharp
 ```
 
-Bedeutung der Befehlskomponenten:
+Erklärung der Befehlsteile:
 
-**dotnet**:    
-**new**:    
-**sln**:   
-**--name**:   
+- **dotnet**: Das Hauptwerkzeug zum Arbeiten mit .NET Core-Projekten.
+- **new**: Befehl zum Erstellen einer neuen Instanz (kann für Projekte, Projektgruppen und andere Ressourcen verwendet werden).
+- **sln**: Spezifiziert, dass eine neue Projektmappe (Solution) erstellt werden soll.
+- **--name**: Dient zur Angabe des Namens der zu erstellenden Projektmappe oder Ressource.
 
-Dieser befehl erzeug eine Neue Projektmappe in Ihrem Arbeitsverzeichnis.
+Nach Ausführung des Befehls wird eine neue Projektmappe in Ihrem aktuellen Arbeitsverzeichnis erstellt.
 
 <img src="./AddFiles/12.png" width=100%>
 
-### Ein neues Projekt
+### Erstellung eines neuen Projekts
 
-In .NET bezeichnet ein **"Projekt"** eine Sammlung von Dateien und Konfigurationseinstellungen, die zusammenarbeiten, um eine bestimmte Anwendungsart, z.B. eine Konsolenanwendung, eine Webanwendung oder eine Bibliothek, zu erstellen. Ein .NET-Projekt enthält in der Regel Quellcodedateien (wie C#-Dateien), Ressourcendateien und eine Projektdatei (typischerweise mit der Endung **'.csproj'** für C#-Projekte), die Metadaten über das Projekt sowie Anweisungen für das Kompilieren und Bauen der Anwendung enthält. Ein Projekt kann eigenständig sein oder Teil einer größeren Lösung (Solution) mit mehreren Projekten sein, die gemeinsam oder separat gebaut und ausgeführt werden können.
+In der .NET-Welt bezeichnet ein **"Projekt"** eine Kollektion von Dateien und Konfigurationen, die gemeinsam dazu dienen, eine bestimmte Art von Anwendung zu generieren, sei es eine Konsolenapplikation, eine Webapp oder eine Bibliothek. Typischerweise enthält ein .NET-Projekt Quellcodedateien (z.B. C#-Dateien), Ressourcendateien und eine spezielle Projektdatei. Diese Projektdatei hat meist die Endung **'.csproj'** (für C#-Projekte) und beinhaltet sowohl Metadaten über das Projekt als auch Anweisungen für dessen Kompilierung und Bau. Ein solches Projekt kann entweder eigenständig existieren oder als Teil einer umfassenden Projektmappe (Solution) mit mehreren Projekten fungieren.
 
-Um ein neues Projekt zu erstellen wird folgender Befehl im Terminal ausgeführt:
+Zum Anlegen eines neuen Projekts geben Sie den folgenden Befehl im Terminal ein:
 
 ```
 dotnet new console --language C# --name 1_Elementare_Syntax --framework net6.0
 ```
 
-Bedeutung der Befehlskomponenten:
-**console**:   
-**--language**:   
-**--framework**:   
+Einzelheiten zu den Befehlskomponenten:
+- **console**: Bestimmt, dass es sich um eine Konsolenanwendung handeln soll.
+- **--language**: Legt die zu verwendende Programmiersprache fest, in diesem Fall C#.
+- **--name**: Dient zur Angabe des Projektnamens.
+- **--framework**: Spezifiziert die .NET-Version oder das Framework, mit dem das Projekt kompatibel sein soll.
 
 <img src="./AddFiles/13.png" width=100%>
 
-### Projekt zur Projektmappe hinzufügen
+Nach Ausführung des obigen Befehls wird ein neues Konsolenprojekt mit dem angegebenen Namen und den festgelegten Einstellungen in Ihrem aktuellen Arbeitsverzeichnis erstellt.
 
-Um das Projekt der vorhandenen Projektmappe hinzuzufügen, der folgende Befehl im Terminal eingegeben werden:
+### Ein Projekt der Projektmappe hinzufügen
+
+Nachdem Sie ein neues Projekt erstellt haben, ist es häufig erforderlich, dieses zu einer bestehenden Projektmappe hinzuzufügen. Dies ermöglicht es, mehrere Projekte zentral zu verwalten und sie als zusammenhängende Einheit zu betrachten. 
+
+Führen Sie den nachfolgenden Befehl im Terminal aus, um das vorher erstellte Projekt der Projektmappe hinzuzufügen:
+
+
 
 ```
 dotnet sln add 1_Elementare_Syntax/1_Elementare_Syntax.csproj
@@ -170,53 +164,55 @@ dotnet sln add 1_Elementare_Syntax/1_Elementare_Syntax.csproj
 
 <img src="./AddFiles/14.png" width=100%>
 
-Folgender Befehl Zeigt die Projekte an, die in der Projektmappe enthalten sind:
+Um zu überprüfen, welche Projekte sich bereits in der Projektmappe befinden und sicherzustellen, dass Ihr neues Projekt erfolgreich hinzugefügt wurde, können Sie den folgenden Befehl verwenden:
+
 ```
 dotnet sln GrundlagenrepositoryCsharp.sln list
 ```
 
+Das Ergebnis dieses Befehls listet alle Projekte auf, die der Projektmappe hinzugefügt wurden. 
+
 <img src="./AddFiles/15.png" width=100%>
 
-### Projekt ausführen und Debuggen   
+### Projekt ausführen und Debuggen
 
-Die Ausführung eines Programms und der Einsatz eines Debuggers sind zwei unterschiedliche Konzepte in der Softwareentwicklung:
+Ein tiefgreifendes Verständnis der Softwareentwicklung erfordert die Fähigkeit, sowohl die Ausführung von Code als auch das Debugging zu verstehen und zu steuern.
 
-**Ausführung eines Programms:** Wenn ein Programm ausgeführt wird, wird es ohne Unterbrechung vom Anfang bis zum Ende (oder bis zu einem unbehandelten Fehler) durchlaufen. Der Hauptzweck ist es, die gewünschten Ergebnisse oder Aktionen zu sehen, die das Programm durchführt. Bei der normalen Ausführung können Sie die Funktionalität des Programms beobachten, aber Sie haben keinen detaillierten Einblick in die internen Abläufe oder Zustände während der Ausführung.   
-
-Um das Projekt **'1_Elementare_Syntax'** mit dem Progammcode ind der Datei **'Program.cs'** auszuführen, können Sie folgenden Code ausführen: 
+#### Ausführen eines Programms
+Die Ausführung eines Programms ermöglicht es Ihnen, den Code von Anfang bis Ende laufen zu lassen und zu sehen, wie er in einer Live-Umgebung arbeitet. Um das Projekt **'1_Elementare_Syntax'** zu starten, führen Sie den folgenden Befehl aus:
 
 ```
 dotnet run --project 1_Elementare_Syntax/1_Elementare_Syntax.csproj
 ```
 Bedeutung der Befehlskomponenten:   
-**run**:   
-**--project**:   
+**run**: Befiehlt dem .NET Core SDK, das Projekt auszuführen.      
+**--project**: Spezifiziert welches Projekt ausgeführt werden soll.      
 
 <img src="./AddFiles/16.png" width=100%>
 
-Fügen Sie COdezeilen hinzu und führen Sie das Programm erneut aus:
+**Codezeilen hinzufügen und das Programm neu starten:**
 
-- Gehen Sie im Arbeitsverzeichnis in das Projekt **'1_Elementare_Syntax'** und anschließend in die Datei **'Program.cs'**.
-- Fügen sie unter die bestehende Zeile den Code `Console.WriteLine("Hallo, Welt!");` ein.
-- Starten Sie das Programm erneut.
+- Navigieren Sie im Arbeitsverzeichnis zum Projekt **'1_Elementare_Syntax'** und öffnen Sie die Datei **'Program.cs'**.
+- Fügen Sie unter der bereits vorhandenen Codezeile den folgenden Befehl ein:`Console.WriteLine("Hallo, Welt!");`.
+- Führen Sie das Programm erneut aus, um die Änderungen zu sehen.
 
 <img src="./AddFiles/17.png" width=100%>
 <img src="./AddFiles/18.png" width=100%>
 
 **Debugger:** Ein Debugger ist ein spezialisiertes Tool, das Entwicklern ermöglicht, ein Programm in einer kontrollierten Umgebung auszuführen, um Fehler zu finden und zu beheben. Mit einem Debugger können Entwickler das Programm schrittweise ausführen, Haltepunkte setzen, um die Ausführung an bestimmten Punkten zu stoppen, und den aktuellen Zustand des Programms (wie Variablenwerte) überwachen. Dies gibt einen detaillierten Einblick in das Verhalten des Programms und ermöglicht es, Probleme oder unerwartetes Verhalten zu identifizieren und zu korrigieren.
 
-Um den Debugger zu testen, führen Sie folgende Schritte aus: 
+**Den Debugger verwenden: **
 
-1. Setzen Sie bei der neuen Zeile einen Haltepunkt indem Sie links neben die Zeilennummer klicken.
-2. Starten Sie den Debugger indem Sie **F5** drücken. ❗❗ (Nun müsste sich ein Json-Datei öffnen ist das der fall, führen Sie die folgende Einstellung aus)
-3. Gehen Sie ins Terminal und schauen Sie sich an was ausgeführt worden ist.
-4. Mit dem **'PLay-Button'** können sie den Debuger weiter laufen lassen.
+1. Setzen Sie einen Haltepunkt, indem Sie links neben die Zeilennummer klicken.
+2. Starten Sie den Debugger mit **F5**. ❗❗ (Nun müsste sich ein Json-Datei öffnen ist das der fall, führen Sie die folgende Einstellung aus)
+3. Überprüfen Sie das Terminal, um den aktuellen Ausführungsstand zu sehen.
+4. erwenden Sie den **'PLay-Button'**, um den Debugger fortzusetzen.
 
 <img src="./AddFiles/20.png" width=100%>
 
-**Debugger einstellen**
+**Debugger-Konfiguration:**
 
-Hat sich ein Json-Datei geöffnet ist das etwas gutes 🙂. Ändern Sie den Punkt **"console"** zu dem Wert `"integratedTerminal"` und speichern Sie die Datei ab. Sich können nun die Datei mit einem Klick auf das x schließen.
+Wenn sich eine JSON-Datei geöffnet hat, ist das in der Regel ein gutes Zeichen. Ändern Sie in dieser Datei den Wert von **"console"** zu `"integratedTerminal"`. Speichern Sie die Änderungen und schließen Sie die Datei.
 
 <img src="./AddFiles/19.png" width=100%>
 
