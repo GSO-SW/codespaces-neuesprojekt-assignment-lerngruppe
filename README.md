@@ -231,10 +231,10 @@ Ein Commit ist ein Begriff aus der Versionskontrolle und bezeichnet die Aktion, 
 
 Um einen Commit ind VS Code durchzuführen, müssen Sie folgende Schritte durchführen: 
 
-1. Klicken Sie auf das Branch-Symbol an der linken Seite.
+1. Klicken Sie auf das Branch-Symbol in der Seitenleiste.
 2. Fügen Sie alle Änderungen mit einem Klick auf das `+` -Symbol hinzu.
-3. Schreiben Sie eine Beschreibung in die Commitbox was sie geändert haben.
-4. Klich´ken Sie auf den aufleuchtenden Commit-Button 
+3. Geben Sie eine kurze Beschreibung Ihrer Änderungen in das Eingabefeld ein.
+4. Bestätigen Sie den Commit mit einem Klick auf das Commit-Symbol.
 
 <img src="./AddFiles/22.png" width=100%>
 
