@@ -89,14 +89,19 @@ Damit die Einstellungen und der Code bei VS Code gespeichert sind müssen einige
 Erweiterungen in Visual Studio Code ergänzen den Basis-Editor um zusätzliche Funktionen. Mit VS Code-Erweiterungen können Benutzer Sprachen, Debugger und Tools hinzufügen, um ihren Entwicklungsworkflow zu unterstützen. Dank des umfangreichen Erweiterungsmodells von VS Code können Entwickler von Erweiterungen direkt in die VS Code-Benutzeroberfläche eingreifen und Funktionen über die gleichen APIs bereitstellen, die auch von VS Code verwendet werden. Diese Erweiterungen können aus dem Visual Studio Code Marketplace gefunden, installiert und verwaltet werden.
 
 Um erweiterungen zu installieren, klicken sie das entsprechende Symbol an und suchen Sie anschließend nach den entsprechenden Erweiterungen.
+
 <img src="./AddFiles/5_1.png" width=10% >
 
-**Folgende Erweiterungen sollten Sie installieren. **
+**Folgende Erweiterungen sollten Sie installieren.**
 
 <img src="./AddFiles/6.png" width=50% >
 <img src="./AddFiles/7.png" width=50% >
 <img src="./AddFiles/7_1.png" width=50% >
 <img src="./AddFiles/9.png" width=50% >
+
+**OmniSharp aktivieren**
+
+OmniSharp ist eine Sammlung von Werkzeugen, Editor-Integrationen und Bibliotheken, die zusammen ein Ökosystem bilden, welches unabhängig vom gewählten Editor und Betriebssystem eine hervorragende Programmiererfahrung ermöglicht.
 
 Auch wenn Sie die notwendigen Erweiterungen installiert haben, müssen Sie noch eine Dotnet einstellung vornehmen damit KLassen und Methoden von C# in VScode angezeigt werden. 
 
@@ -111,9 +116,47 @@ Machen Sie einen **'hard refresh'** indem sie die Seite neu laden.
 
 <img src="./AddFiles/9_1.png" width=50% >
 
+Falls das Terminal nicht geöffnet ist, können Sie es über das Burgermenü erneut öffnen.
 
 <img src="./AddFiles/10.png" width=50% >
+
+### Neue Projektmappe und Projekt erstellen
+
+**Eine neue Projektmappe**   
+In Visual Studio bezeichnet eine Projektmappe eine Organisationsstruktur, die als Container dient, um Projekte zu organisieren und zu verwalten. Während Projekte die tatsächlichen Code-Dateien, Ressourcen und Konfigurationen enthalten, dient die Projektmappe als übergeordneter Rahmen, der mehrere Projekte zusammenfassen kann. Wenn man eine Projektmappe in Visual Studio öffnet, werden automatisch alle darin enthaltenen Projekte geladen. Um den Organisationsprozess zu beginnen, sollte man zuerst eine leere Projektmappe erstellen, in die dann entsprechende Projekte hinzugefügt werden können.
+
+Um eine Projektmappe zu erstellen, geben Sie folgen den Befehl im Terminal ein:
+
+```
+dotnet new sln --name GrundlagenrepositoryCsharp
+```
+
+Bedeutung der Befehlskomponenten:
+
+**dotnet**: 
+**new**:
+**sln**:
+**--name**:
+
+Dieser befehl erzeug eine Neue Projektmappe in Ihrem Arbeitsverzeichnis.
+
 <img src="./AddFiles/12.png" width=50% >
+
+**Ein neues Projekt** 
+
+In .NET bezeichnet ein **"Projekt"** eine Sammlung von Dateien und Konfigurationseinstellungen, die zusammenarbeiten, um eine bestimmte Anwendungsart, z.B. eine Konsolenanwendung, eine Webanwendung oder eine Bibliothek, zu erstellen. Ein .NET-Projekt enthält in der Regel Quellcodedateien (wie C#-Dateien), Ressourcendateien und eine Projektdatei (typischerweise mit der Endung **'.csproj'** für C#-Projekte), die Metadaten über das Projekt sowie Anweisungen für das Kompilieren und Bauen der Anwendung enthält. Ein Projekt kann eigenständig sein oder Teil einer größeren Lösung (Solution) mit mehreren Projekten sein, die gemeinsam oder separat gebaut und ausgeführt werden können.
+
+Um ein neues Projekt zu erstellen wird folgender Befehl im Terminal ausgeführt:
+
+```
+dotnet new console --language C# --name 1_Elementare_Syntax --framework net6.0
+```
+
+Bedeutung der Befehlskomponenten:
+**console**:
+**--language**:
+**--framework**:
+
 <img src="./AddFiles/13.png" width=50% >
 <img src="./AddFiles/14.png" width=50% >
 <img src="./AddFiles/15.png" width=50% >
