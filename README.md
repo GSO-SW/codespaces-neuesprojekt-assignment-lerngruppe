@@ -36,30 +36,30 @@ Die Integration von Visual Studio mit GitHub hat die Entwicklung und Zusammenarb
 Was sind Codespaces
 
 
-<img src="./AddFiles/1.PNG" width=50% >
-<img src="./AddFiles/2.PNG" width=50% >
-<img src="./AddFiles/3.PNG" width=50% >
-<img src="./AddFiles/4.PNG" width=50% >
-<img src="./AddFiles/5.PNG" width=50% >
-<img src="./AddFiles/6.PNG" width=50% >
-<img src="./AddFiles/7.PNG" width=50% >
-<img src="./AddFiles/8.PNG" width=50% >
-<img src="./AddFiles/9.PNG" width=50% >
-<img src="./AddFiles/10.PNG" width=50% >
-<img src="./AddFiles/12.PNG" width=50% >
-<img src="./AddFiles/13.PNG" width=50% >
-<img src="./AddFiles/14.PNG" width=50% >
-<img src="./AddFiles/15.PNG" width=50% >
-<img src="./AddFiles/16.PNG" width=50% >
-<img src="./AddFiles/17.PNG" width=50% >
-<img src="./AddFiles/18.PNG" width=50% >
-<img src="./AddFiles/19.PNG" width=50% >
-<img src="./AddFiles/20.PNG" width=50% >
-<img src="./AddFiles/21.PNG" width=50% >
-<img src="./AddFiles/22.PNG" width=50% >
-<img src="./AddFiles/23.PNG" width=50% >
-<img src="./AddFiles/24.PNG" width=50% >
-<img src="./AddFiles/25.PNG" width=50% >
-<img src="./AddFiles/26.PNG" width=50% >
+<img src="./AddFiles/1.png" width=50% >
+<img src="./AddFiles/2.png" width=50% >
+<img src="./AddFiles/3.png" width=50% >
+<img src="./AddFiles/4.png" width=50% >
+<img src="./AddFiles/5.png" width=50% >
+<img src="./AddFiles/6.png" width=50% >
+<img src="./AddFiles/7.png" width=50% >
+<img src="./AddFiles/8.png" width=50% >
+<img src="./AddFiles/9.png" width=50% >
+<img src="./AddFiles/10.png" width=50% >
+<img src="./AddFiles/12.png" width=50% >
+<img src="./AddFiles/13.png" width=50% >
+<img src="./AddFiles/14.png" width=50% >
+<img src="./AddFiles/15.png" width=50% >
+<img src="./AddFiles/16.png" width=50% >
+<img src="./AddFiles/17.png" width=50% >
+<img src="./AddFiles/18.png" width=50% >
+<img src="./AddFiles/19.png" width=50% >
+<img src="./AddFiles/20.png" width=50% >
+<img src="./AddFiles/21.png" width=50% >
+<img src="./AddFiles/22.png" width=50% >
+<img src="./AddFiles/23.png" width=50% >
+<img src="./AddFiles/24.png" width=50% >
+<img src="./AddFiles/25.png" width=50% >
+<img src="./AddFiles/26.png" width=50% >
 
 
