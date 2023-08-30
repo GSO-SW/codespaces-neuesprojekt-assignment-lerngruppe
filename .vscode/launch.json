@@ -1,33 +1,24 @@
 {
-    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
-    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
-    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
-        
         {
-            "name": "MyProject",
+            "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/MyProject/bin/Debug/net6.0/MyProject.dll",
+            "program": "${workspaceFolder}/1_Emelmentare_Syntax/bin/Debug/net6.0/1_Emelmentare_Syntax.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/1_Emelmentare_Syntax",
             "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
-            "name": "MyNewProject",
+            "name": ".NET Core Attach",
             "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/MyNewProject/bin/Debug/net6.0/MyNewProject.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
-            "stopAtEntry": false
-        },
-
+            "request": "attach"
+        }
     ]
 }
