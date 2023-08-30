@@ -37,7 +37,7 @@ Standardmäßig werden Codespaces aus einem Ubuntu Linux-Image erstellt, das ein
 
 Du kannst über deinen Browser, über Visual Studio Code, über die JetBrains Gateway-Anwendung oder über GitHub CLI eine Verbindung mit deinen Codespaces herstellen. Wenn du eine Verbindung herstellst, gelangst du direkt in den Docker-Container. Du hast keinen Zugriff auf den Host der übergeordneten Linux-VM.
 
-<img src="./AddFiles/codespaces-diagram.png" width=50% >
+<img src="./AddFiles/codespaces-diagram.png" width=100%>
 
 
 
@@ -55,11 +55,11 @@ Visual Studio Code (VS Code) ist ein kostenloser, plattformübergreifender Quell
 Um den Codespace zu öffne, gehen Sie sicher, dass der `.devconatiner` in ihrem Repository vorhanden ist.
 Clicken Sie in dem Repository das bearbeiten möchten auf **'Code'**. in der Registerkarte Codespaces klicken Sie auf **'Create codespace on main'**.
 
-<img src="./AddFiles/1.png" width=50% >
+<img src="./AddFiles/1.png" width=100%>
 
 Wie Sie nun sehen können, wird der Container für ihren Codespace erstellt.
 
-<img src="./AddFiles/2.png" width=50% >
+<img src="./AddFiles/2.png" width=100%>
 
 
 ## Visual Studio Code einstellen
@@ -78,9 +78,9 @@ Damit die Einstellungen und der Code bei VS Code gespeichert sind müssen einige
 - Klicken Sie auf `Sign in & Turn on`
 - Nun wählen Sie ihr GitHub Profil
 
-<img src="./AddFiles/3.png" width=50% >
-<img src="./AddFiles/4.png" width=50% >
-<img src="./AddFiles/5.png" width=50% >
+<img src="./AddFiles/3.png" width=50%>
+<img src="./AddFiles/4.png" width=50%>
+<img src="./AddFiles/5.png" width=100%>
 
 ## Visual Studio Code Erweiterungen installieren
 
@@ -94,10 +94,10 @@ Um erweiterungen zu installieren, klicken sie das entsprechende Symbol an und su
 
 **Folgende Erweiterungen sollten Sie installieren.**
 
-<img src="./AddFiles/6.png" width=50% >
-<img src="./AddFiles/7.png" width=50% >
-<img src="./AddFiles/7_1.png" width=50% >
-<img src="./AddFiles/9.png" width=50% >
+<img src="./AddFiles/6.png" width=100%>
+<img src="./AddFiles/7.png" width=100%>
+<img src="./AddFiles/7_1.png" width=100%>
+<img src="./AddFiles/9.png" width=100%>
 
 **OmniSharp aktivieren**
 
@@ -114,11 +114,11 @@ Folgende Schritte müssen Sie vornehmen:
 
 Machen Sie einen **'hard refresh'** indem sie die Seite neu laden.
 
-<img src="./AddFiles/9_1.png" width=50% >
+<img src="./AddFiles/9_1.png" width=100%>
 
 Falls das Terminal nicht geöffnet ist, können Sie es über das Burgermenü erneut öffnen.
 
-<img src="./AddFiles/10.png" width=50% >
+<img src="./AddFiles/10.png" width=50%>
 
 ## Neue Projektmappe und Projekt erstellen
 
@@ -141,7 +141,7 @@ Bedeutung der Befehlskomponenten:
 
 Dieser befehl erzeug eine Neue Projektmappe in Ihrem Arbeitsverzeichnis.
 
-<img src="./AddFiles/12.png" width=50% >
+<img src="./AddFiles/12.png" width=100%>
 
 ### Ein neues Projekt
 
@@ -158,7 +158,7 @@ Bedeutung der Befehlskomponenten:
 **--language**:   
 **--framework**:   
 
-<img src="./AddFiles/13.png" width=50% >
+<img src="./AddFiles/13.png" width=100%>
 
 ### Projekt zur Projektmappe hinzufügen
 
@@ -168,14 +168,14 @@ Um das Projekt der vorhandenen Projektmappe hinzuzufügen, der folgende Befehl i
 dotnet sln add 1_Elementare_Syntax/1_Elementare_Syntax.csproj
 ```
 
-<img src="./AddFiles/14.png" width=50% >
+<img src="./AddFiles/14.png" width=100%>
 
 Folgender Befehl Zeigt die Projekte an, die in der Projektmappe enthalten sind:
 ```
 dotnet sln GrundlagenrepositoryCsharp.sln list
 ```
 
-<img src="./AddFiles/15.png" width=50% >
+<img src="./AddFiles/15.png" width=100%>
 
 ### Projekt ausführen und Debuggen   
 
@@ -192,7 +192,7 @@ Bedeutung der Befehlskomponenten:
 **run**:   
 **--project**:   
 
-<img src="./AddFiles/16.png" width=50% >
+<img src="./AddFiles/16.png" width=100%>
 
 Fügen Sie COdezeilen hinzu und führen Sie das Programm erneut aus:
 
@@ -200,8 +200,8 @@ Fügen Sie COdezeilen hinzu und führen Sie das Programm erneut aus:
 - Fügen sie unter die bestehende Zeile den Code `Console.WriteLine("Hallo, Welt!");` ein.
 - Starten Sie das Programm erneut.
 
-<img src="./AddFiles/17.png" width=50% >
-<img src="./AddFiles/18.png" width=50% >
+<img src="./AddFiles/17.png" width=100%>
+<img src="./AddFiles/18.png" width=100%>
 
 **Debugger:** Ein Debugger ist ein spezialisiertes Tool, das Entwicklern ermöglicht, ein Programm in einer kontrollierten Umgebung auszuführen, um Fehler zu finden und zu beheben. Mit einem Debugger können Entwickler das Programm schrittweise ausführen, Haltepunkte setzen, um die Ausführung an bestimmten Punkten zu stoppen, und den aktuellen Zustand des Programms (wie Variablenwerte) überwachen. Dies gibt einen detaillierten Einblick in das Verhalten des Programms und ermöglicht es, Probleme oder unerwartetes Verhalten zu identifizieren und zu korrigieren.
 
@@ -212,20 +212,20 @@ Um den Debugger zu testen, führen Sie folgende Schritte aus:
 3. Gehen Sie ins Terminal und schauen Sie sich an was ausgeführt worden ist.
 4. Mit dem **'PLay-Button'** können sie den Debuger weiter laufen lassen.
 
-<img src="./AddFiles/20.png" width=50% >
+<img src="./AddFiles/20.png" width=100%>
 
 **Debugger einstellen**
 
 Hat sich ein Json-Datei geöffnet ist das etwas gutes 🙂. Ändern Sie den Punkt **"console"** zu dem Wert `"integratedTerminal"` und speichern Sie die Datei ab. Sich können nun die Datei mit einem Klick auf das x schließen.
 
-<img src="./AddFiles/19.png" width=50% >
+<img src="./AddFiles/19.png" width=100%>
 
 ### Zweite Projektmappe hinzufügen
 
 Erstellen Sie eine zweite Projektmappe mit dem Namen `2_Konsolenausgabe`. 
 Fügen Sie dieses Projekt auch der Projektmappe hinzu.
 
-<img src="./AddFiles/21.png" width=50% >
+<img src="./AddFiles/21.png" width=100%>
 
 ## Commiten und Pushen
 
@@ -240,7 +240,7 @@ Um einen Commit ind VS Code durchzuführen, müssen Sie folgende Schritte durchf
 3. Schreiben Sie eine Beschreibung in die Commitbox was sie geändert haben.
 4. Klich´ken Sie auf den aufleuchtenden Commit-Button 
 
-<img src="./AddFiles/22.png" width=50% >
+<img src="./AddFiles/22.png" width=100%>
 
 ### Warum muss ich noch Pushen?
 
@@ -249,7 +249,7 @@ Nach einem Commit sind die Änderungen nur im lokalen Repository des Entwicklers
 Um die Änderungen bei VS Code zu pushen, klicken sie im Register von Git auf die drei Punkte `...`
 und anschließend auf `Push`. Schauen Sie ob die Änderungen bei GitHub zu sehen sind.
 
-<img src="./AddFiles/23.png" width=50% >
+<img src="./AddFiles/23.png" width=50%>
 
 ## Fetch und Pull
 
@@ -257,7 +257,7 @@ und anschließend auf `Push`. Schauen Sie ob die Änderungen bei GitHub zu sehen
 
 Es könnte vorkommen, dass Sie selbst oder ein/e Kolleg/in eine Änderung direkt im GitHub-Repository durchführt. Um dies zu simulieren, ändern Sie im Projekt **'2_Konsolenausgabe'** in der Datei **'Program.cs'** den Code zu `Console.WriteLine("foobar");`. 
 
-<img src="./AddFiles/24.png" width=50% >
+<img src="./AddFiles/24.png" width=100%>
 
 **Gehen Sie nun wieder zu ihrem Codespace und Visual Studio Code**
 
@@ -269,11 +269,12 @@ Um die Änderungen abzurufen, gehen Sie wieder auf das Git Register und klicken 
 
 ❗ Schauen Sie jetzte in die **'Program.cs'** so sehen Sie, das die Änderungen noch nicht übernommen wurden. 
 
-<img src="./AddFiles/25.png" width=50% >
+<img src="./AddFiles/25.png" width=50%>
 
 ### Was bedeutet Pull
 
+Mit einem **'Pull'** werden die neuesten Änderungen aus einem entfernten Repository abgerufen und automatisch mit dem aktuellen Branch in Ihrem lokalen Repository verschmolzen. Das bedeutet, wenn Sie einen **'Pull'** ausführen, aktualisieren Sie Ihre lokale Arbeitskopie direkt mit den neuesten Änderungen aus dem entfernten Repository.
 
-<img src="./AddFiles/26.png" width=50% >
+Sie können die Änderungen pullen indem Sie über die drei Punkte `...` den Befehl `Pull` anklicken oder direkt auf den Synchronisations-Button klicken.
 
-
+<img src="./AddFiles/26.png" width=50%>
