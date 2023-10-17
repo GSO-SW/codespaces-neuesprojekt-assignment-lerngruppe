@@ -1,6 +1,6 @@
 
 <div id="texts" style="display:inline; white-space:nowrap; float: right;"> 
-        <h1>Visual Studio mit Git und GitHub</h1>
+        <h1>Visual Studio Code mit Git und GitHub</h1>
 </div>
 
 # Einleitung
