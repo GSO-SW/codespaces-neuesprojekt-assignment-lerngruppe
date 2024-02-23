@@ -82,8 +82,8 @@ Zum Installieren von Erweiterungen klicken Sie einfach auf das Erweiterungs-Symb
 Nachfolgend sind einige Erweiterungen aufgeführt, die Sie für Ihren Workflow in Betracht ziehen sollten:
 
 <img src="./AddFiles/6.png" width=100%>
-<img src="./AddFiles/7.png" width=100%>
-<img src="./AddFiles/7_1.png" width=100%>
+<!-- <img src="./AddFiles/7.png" width=100%>
+<img src="./AddFiles/7_1.png" width=100%> -->
 <img src="./AddFiles/9.png" width=100%>
 
 ### OmniSharp aktivieren
